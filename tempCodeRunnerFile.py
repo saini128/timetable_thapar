@@ -1,1 +1,0 @@
-df.columns.get_loc(group_index)

@@ -1,0 +1,137 @@
+{
+    "Monday": [
+        {
+            "class": "UTA024 L",
+            "time": "13:00:00",
+            "venue": "LT302"
+        },
+        {
+            "class": "UCS411 L",
+            "time": "13:50:00",
+            "venue": "LT302"
+        },
+        {
+            "class": "UCS414 L",
+            "time": "14:40:00",
+            "venue": "LT302"
+        },
+        {
+            "class": "UCS411 P",
+            "time": "15:30:00",
+            "venue": "SS-2"
+        }
+    ],
+    "Tuesday": [
+        {
+            "class": "UCS415 P",
+            "time": "08:00:00",
+            "venue": "PL-1"
+        },
+        {
+            "class": "UTA024 P",
+            "time": "09:40:00",
+            "venue": "ED-1A"
+        },
+        {
+            "class": "UCS415 L",
+            "time": "11:20:00",
+            "venue": "LT301"
+        },
+        {
+            "class": "UCS414 L",
+            "time": "12:10:00",
+            "venue": "LT301"
+        },
+        {
+            "class": "UES035 L",
+            "time": "14:40:00",
+            "venue": "LT301"
+        },
+        {
+            "class": "UCS310 L",
+            "time": "15:30:00",
+            "venue": "LT302"
+        },
+        {
+            "class": "UTA026 L",
+            "time": "16:20:00",
+            "venue": "LT302"
+        }
+    ],
+    "Wednesday": [
+        {
+            "class": "UCS310 L",
+            "time": "08:00:00",
+            "venue": "LT301"
+        },
+        {
+            "class": "UES035 L",
+            "time": "08:50:00",
+            "venue": "LT301"
+        },
+        {
+            "class": "UTA024 P",
+            "time": "09:40:00",
+            "venue": "PROJECT"
+        },
+        {
+            "class": "UCS411 L",
+            "time": "13:50:00",
+            "venue": "LT301"
+        },
+        {
+            "class": "UCS415 L",
+            "time": "14:40:00",
+            "venue": "LT301"
+        }
+    ],
+    "Thursday": [
+        {
+            "class": "UES035 L",
+            "time": "13:00:00",
+            "venue": "LT302"
+        },
+        {
+            "class": "UCS310 L",
+            "time": "13:50:00",
+            "venue": "LT302"
+        },
+        {
+            "class": "UCS415 L",
+            "time": "14:40:00",
+            "venue": "LT302"
+        },
+        {
+            "class": "UCS310 P",
+            "time": "15:30:00",
+            "venue": "DBMS-1"
+        }
+    ],
+    "Friday": [
+        {
+            "class": "UTA026 L",
+            "time": "08:00:00",
+            "venue": "LT301"
+        },
+        {
+            "class": "UCS411 L",
+            "time": "08:50:00",
+            "venue": "LT301"
+        },
+        {
+            "class": "UES035 P",
+            "time": "11:20:00",
+            "venue": "BMC"
+        },
+        {
+            "class": "UCS414 P",
+            "time": "13:50:00",
+            "venue": "NS-2"
+        },
+        {
+            "class": "UTA026 P",
+            "time": "15:30:00",
+            "venue": "WORKSHOP"
+        }
+    ]
+}
