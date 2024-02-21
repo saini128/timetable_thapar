@@ -1,0 +1,137 @@
+{
+    "Monday": [
+        {
+            "class": "ARTIFICIAL INTELLIGENCE P",
+            "time": "08:00:00",
+            "venue": "SS-1"
+        },
+        {
+            "class": "DATABASE MANAGEMENT SYSTEM P",
+            "time": "11:20:00",
+            "venue": "DBMS-1"
+        },
+        {
+            "class": "DESIGN AND ANALYSIS OF ALGORITHMS P",
+            "time": "13:50:00",
+            "venue": "DS-2"
+        },
+        {
+            "class": "ARTIFICIAL INTELLIGENCE L",
+            "time": "15:30:00",
+            "venue": "LT301"
+        },
+        {
+            "class": "ENGINEERING DESIGN PROJECT - II L",
+            "time": "16:20:00",
+            "venue": "LT301"
+        }
+    ],
+    "Tuesday": [
+        {
+            "class": "MEASUREMENT SCIENCE AND TECHNIQUES P",
+            "time": "09:40:00",
+            "venue": "ISD"
+        },
+        {
+            "class": "MEASUREMENT SCIENCE AND TECHNIQUES L",
+            "time": "13:00:00",
+            "venue": "LT401"
+        },
+        {
+            "class": "DATABASE MANAGEMENT SYSTEM L",
+            "time": "13:50:00",
+            "venue": "LT401"
+        },
+        {
+            "class": "DESIGN AND ANALYSIS OF ALGORITHMS L",
+            "time": "14:40:00",
+            "venue": "LT401"
+        },
+        {
+            "class": "MANUFACTURING PROCESSES P",
+            "time": "15:30:00",
+            "venue": "WORKSHOP"
+        }
+    ],
+    "Wednesday": [
+        {
+            "class": "DATABASE MANAGEMENT SYSTEM L",
+            "time": "08:00:00",
+            "venue": "LT401"
+        },
+        {
+            "class": "COMPUTER NETWORKS L",
+            "time": "08:50:00",
+            "venue": "LT401"
+        },
+        {
+            "class": "DESIGN AND ANALYSIS OF ALGORITHMS L",
+            "time": "09:40:00",
+            "venue": "LT401"
+        },
+        {
+            "class": "ARTIFICIAL INTELLIGENCE L",
+            "time": "10:30:00",
+            "venue": "LT401"
+        },
+        {
+            "class": "ENGINEERING DESIGN PROJECT - II P",
+            "time": "13:50:00",
+            "venue": "ED-1A"
+        }
+    ],
+    "Thursday": [
+        {
+            "class": "MEASUREMENT SCIENCE AND TECHNIQUES L",
+            "time": "11:20:00",
+            "venue": "LT402"
+        },
+        {
+            "class": "MANUFACTURING PROCESSES L",
+            "time": "12:10:00",
+            "venue": "LT402"
+        },
+        {
+            "class": "DESIGN AND ANALYSIS OF ALGORITHMS L",
+            "time": "13:50:00",
+            "venue": "LT401"
+        },
+        {
+            "class": "ARTIFICIAL INTELLIGENCE L",
+            "time": "14:40:00",
+            "venue": "LT401"
+        },
+        {
+            "class": "COMPUTER NETWORKS L",
+            "time": "15:30:00",
+            "venue": "LT401"
+        },
+        {
+            "class": "DATABASE MANAGEMENT SYSTEM L",
+            "time": "16:20:00",
+            "venue": "LT401"
+        }
+    ],
+    "Friday": [
+        {
+            "class": "COMPUTER NETWORKS P",
+            "time": "08:00:00",
+            "venue": "NS-2"
+        },
+        {
+            "class": "ENGINEERING DESIGN PROJECT - II P",
+            "time": "09:40:00",
+            "venue": "C"
+        },
+        {
+            "class": "MANUFACTURING PROCESSES L",
+            "time": "13:00:00",
+            "venue": "LT301"
+        },
+        {
+            "class": "MEASUREMENT SCIENCE AND TECHNIQUES L",
+            "time": "15:30:00",
+            "venue": "LT301"
+        }
+    ]
+}

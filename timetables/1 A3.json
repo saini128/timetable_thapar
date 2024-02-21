@@ -1,0 +1,94 @@
+{
+    "Monday": [
+        {
+            "class": "PROFESSIONAL COMMUNICATION L",
+            "time": "9:40: AM",
+            "venue": "LP101"
+        },
+        {
+            "class": "UES101 L",
+            "time": "10:30: AM",
+            "venue": "LP101"
+        },
+        {
+            "class": "UPH013 P",
+            "time": "13:50:00",
+            "venue": "LAB1"
+        },
+        {
+            "class": "UES101 P",
+            "time": "15:30:00",
+            "venue": "CAD"
+        },
+        {
+            "class": "UES102 L",
+            "time": "13:50:00",
+            "venue": "LP101"
+        },
+        {
+            "class": "UPH013 L",
+            "time": "14:40:00",
+            "venue": "LP101"
+        },
+        {
+            "class": "MATHEMATICS - II L",
+            "time": "15:30:00",
+            "venue": "LP101"
+        },
+        {
+            "class": "PROFESSIONAL COMMUNICATION L",
+            "time": "16:20:00",
+            "venue": "LP101"
+        },
+        {
+            "class": "UES101 L",
+            "time": "11:20:00",
+            "venue": "LP101"
+        },
+        {
+            "class": "UES102 L",
+            "time": "12:10:00",
+            "venue": "LP101"
+        },
+        {
+            "class": "UPH013 T",
+            "time": "09:40:00",
+            "venue": "E202"
+        },
+        {
+            "class": "MATHEMATICS - II T",
+            "time": "10:30:00",
+            "venue": "T201"
+        },
+        {
+            "class": "UPH013 L",
+            "time": "11:20:00",
+            "venue": "LP101"
+        },
+        {
+            "class": "MATHEMATICS - II L",
+            "time": "12:10:00",
+            "venue": "LP101"
+        },
+        {
+            "class": "UPH013 L",
+            "time": "09:40:00",
+            "venue": "LP101"
+        },
+        {
+            "class": "MATHEMATICS - II L",
+            "time": "10:30:00",
+            "venue": "LP101"
+        },
+        {
+            "class": "PROFESSIONAL COMMUNICATION P",
+            "time": "11:20:00",
+            "venue": "B223"
+        },
+        {
+            "class": "UES101 T",
+            "time": "15:30:00",
+            "venue": "F312"
+        }
+    ]
+}

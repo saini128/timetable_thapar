@@ -1,0 +1,122 @@
+{
+    "Monday": [
+        {
+            "class": "COMPUTER NETWORKS P",
+            "time": "08:00:00",
+            "venue": "NS-2"
+        },
+        {
+            "class": "DESIGN AND ANALYSIS OF ALGORITHMS P",
+            "time": "09:40:00",
+            "venue": "DS-2"
+        },
+        {
+            "class": "SOFTWARE ENGINEERING L",
+            "time": "11:20:00",
+            "venue": "LT401"
+        },
+        {
+            "class": "OPTIMIZATION TECHNIQUES L",
+            "time": "12:10:00",
+            "venue": "LT401"
+        },
+        {
+            "class": "DESIGN AND ANALYSIS OF ALGORITHMS L",
+            "time": "14:40:00",
+            "venue": "LT402"
+        },
+        {
+            "class": "DATABASE MANAGEMENT SYSTEM L",
+            "time": "15:30:00",
+            "venue": "LT401"
+        },
+        {
+            "class": "ARTIFICIAL INTELLIGENCE L",
+            "time": "16:20:00",
+            "venue": "LT401"
+        }
+    ],
+    "Tuesday": [
+        {
+            "class": "DATABASE MANAGEMENT SYSTEM P",
+            "time": "08:00:00",
+            "venue": "DBMS-2"
+        },
+        {
+            "class": "DATABASE MANAGEMENT SYSTEM L",
+            "time": "09:40:00",
+            "venue": "LT401"
+        },
+        {
+            "class": "DESIGN AND ANALYSIS OF ALGORITHMS L",
+            "time": "10:30:00",
+            "venue": "LT401"
+        },
+        {
+            "class": "ARTIFICIAL INTELLIGENCE L",
+            "time": "12:10:00",
+            "venue": "LT401"
+        }
+    ],
+    "Wednesday": [
+        {
+            "class": "OPTIMIZATION TECHNIQUES P",
+            "time": "09:40:00",
+            "venue": "LAB-2"
+        },
+        {
+            "class": "OPTIMIZATION TECHNIQUES L",
+            "time": "11:20:00",
+            "venue": "LT402"
+        },
+        {
+            "class": "DESIGN AND ANALYSIS OF ALGORITHMS L",
+            "time": "15:30:00",
+            "venue": "LT401"
+        },
+        {
+            "class": "COMPUTER NETWORKS L",
+            "time": "16:20:00",
+            "venue": "LT401"
+        }
+    ],
+    "Thursday": [
+        {
+            "class": "ARTIFICIAL INTELLIGENCE P",
+            "time": "09:40:00",
+            "venue": "SS-2"
+        },
+        {
+            "class": "SOFTWARE ENGINEERING L",
+            "time": "11:20:00",
+            "venue": "LT401"
+        },
+        {
+            "class": "DATABASE MANAGEMENT SYSTEM L",
+            "time": "12:10:00",
+            "venue": "LT401"
+        }
+    ],
+    "Friday": [
+        {
+            "class": "ARTIFICIAL INTELLIGENCE L",
+            "time": "08:00:00",
+            "venue": "LT401 "
+        },
+        {
+            "class": "COMPUTER NETWORKS L",
+            "time": "08:50:00",
+            "venue": "LT401 "
+        },
+        {
+            "class": "SOFTWARE ENGINEERING P",
+            "time": "09:40:00",
+            "venue": "SE-2"
+        },
+        {
+            "class": "OPTIMIZATION TECHNIQUES L",
+            "time": "13:00:00",
+            "venue": "LT401 "
+        }
+    ]
+}

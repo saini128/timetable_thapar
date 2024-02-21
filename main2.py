@@ -56,12 +56,28 @@ def extract_groups(df,groupname):
             if group_row.values[0].endswith(' L') or group_row.values[0].endswith(' P') or group_row.values[0].endswith(' T'):
                 print(type(classtime_row.values[1]),classtime_row.values[1],type(specific_time),specific_time)
                 if type(classtime_row.values[1]) == str:
-                    classtime = datetime.datetime.strptime(classtime_row.values[1], '%I:%M: %p').time()
+                    classtime_str = classtime_row.values[1].strip()
+                    try:
+                        
+                        classtime = datetime.datetime.strptime(classtime_str, '%I:%M:%p').time()
+                    except ValueError:
+                        try:
+                            
+                            classtime = datetime.datetime.strptime(classtime_str, '%I:%M: %p').time()
+                        except ValueError:
+                            
+                            print(f"Unable to parse time: {classtime_str}")
+                            classtime = None 
+
+                    print(type(classtime_row.values[1]))
+                else:
+                    
+                    classtime = classtime_row.values[1]
                 if classtime<specific_time:
                     days.append(current_day)
                     current_day=[]
                 current_day.append({"class":group_row.values[0],
-                                    "time":str(classtime_row.values[1]),
+                                    "time":str(classtime),
                                     "venue":"",
                                     })
                 specific_time=classtime
@@ -103,25 +119,18 @@ with open('subjects.json', 'r') as file:
     subject_mapping = json.load(file)
 
 xl = pd.ExcelFile(excel_file_path)
-for sheet_name in xl.sheet_names:
-    df = pd.read_excel(excel_file_path, sheet_name=sheet_name, header=None)
-    day_rows = df[df.apply(lambda row: row.astype(str).str.contains('DAY').any(), axis=1)]
+groupname="2 CO 36"
+sheet_name="2ND YEAR B"
+print(f"Processing sheet: {sheet_name}, Group Name: {groupname}")
+df = pd.read_excel(excel_file_path, sheet_name=sheet_name, header=None)
 
-    for day_row in day_rows.iterrows():
-        index, row = day_row
-        group_names = row[row.str.match(r'^\d+.*$', na=False)]
-        
-        for groupname in group_names:
-            print(f"Processing sheet: {sheet_name}, Group Name: {groupname}")
 
-            df_group = df.iloc[index:].reset_index(drop=True)
-            group = extract_groups(df_group, groupname)
-            json_data = convert_to_json(group, subject_mapping)
+group = extract_groups(df, groupname)
+json_data = convert_to_json(group, subject_mapping)
 
-            json_string = json.dumps(json_data, indent=4)
+json_string = json.dumps(json_data, indent=4)
 
-            with open(f"timetables/{groupname}.json", 'w') as file:
-                file.write(json_string)
+with open(f"{groupname} output.json", 'w') as file:
+    file.write(json_string)
 
-            print(f"Data saved to '{groupname}.json'")
-            sleep(5)
+print(f"Data saved to '{groupname}.json'")
